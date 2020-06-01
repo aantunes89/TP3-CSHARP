@@ -106,7 +106,7 @@ namespace Aniversarios.Cadastro
                 Escreva($"Pessoas encontradas com o nome {nome}");
                 foreach (var pessoa in pessoasEncontradas)
                 {            
-                    Escreva($"{count} - {pessoa.Nome} {pessoa.Sobrenome}");
+                    Escreva($"{count} - {pessoa.Nome.ToUpper()} {pessoa.Sobrenome.ToUpper()}");
                     count++;
                 }
                 Escreva("---------------------------------------------------------------");
