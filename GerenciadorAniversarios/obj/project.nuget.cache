@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kgOEmTCsCjcvGifG5HsCOYWOlLSWdGUG+KOmlaHsJhO58ZLrzaqu7tCaH2lus9R5QA02fV0X78tl6EtMUZ5F/Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\GerenciadorAniversarios\\Aniversariantes.Cadastros.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre.da.c.antunes\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

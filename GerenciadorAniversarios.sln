@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aniversariantes.Cadastros", "GerenciadorAniversarios\Aniversariantes.Cadastros.csproj", "{ADF26308-69AD-4B1D-B226-926229108F43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apresentacao", "Apresentacao", "{9488DE15-944D-4A89-9262-5F9094C50C8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dados", "Dados", "{818FB1E4-FEF5-4C0A-8536-F3C8337400CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocio", "Negocio", "{3505EBE9-647C-40AF-BF2C-19556E454D16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aniversariantes.Model", "Pessoas.cs\Aniversariantes.Model.csproj", "{4389AFE9-8FD7-4968-AEAC-AEFB9E5D17A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aniversariantes.Dados", "RepositorioDeAniversariantes.cs\Aniversariantes.Dados.csproj", "{15262043-8440-4618-80D7-2976884FBBF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADF26308-69AD-4B1D-B226-926229108F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF26308-69AD-4B1D-B226-926229108F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF26308-69AD-4B1D-B226-926229108F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF26308-69AD-4B1D-B226-926229108F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4389AFE9-8FD7-4968-AEAC-AEFB9E5D17A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4389AFE9-8FD7-4968-AEAC-AEFB9E5D17A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4389AFE9-8FD7-4968-AEAC-AEFB9E5D17A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4389AFE9-8FD7-4968-AEAC-AEFB9E5D17A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15262043-8440-4618-80D7-2976884FBBF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15262043-8440-4618-80D7-2976884FBBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15262043-8440-4618-80D7-2976884FBBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15262043-8440-4618-80D7-2976884FBBF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADF26308-69AD-4B1D-B226-926229108F43} = {9488DE15-944D-4A89-9262-5F9094C50C8E}
+		{4389AFE9-8FD7-4968-AEAC-AEFB9E5D17A6} = {3505EBE9-647C-40AF-BF2C-19556E454D16}
+		{15262043-8440-4618-80D7-2976884FBBF8} = {818FB1E4-FEF5-4C0A-8536-F3C8337400CA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDE564C8-A0B3-4A7C-A812-6DFACDC8C43C}
+	EndGlobalSection
+EndGlobal

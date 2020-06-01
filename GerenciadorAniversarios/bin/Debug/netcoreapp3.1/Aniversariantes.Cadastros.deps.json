@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Aniversariantes.Cadastros/1.0.0": {
+        "dependencies": {
+          "Aniversariantes.Dados": "1.0.0",
+          "Aniversariantes.Model": "1.0.0"
+        },
+        "runtime": {
+          "Aniversariantes.Cadastros.dll": {}
+        }
+      },
+      "Aniversariantes.Dados/1.0.0": {
+        "dependencies": {
+          "Aniversariantes.Model": "1.0.0"
+        },
+        "runtime": {
+          "Aniversariantes.Dados.dll": {}
+        }
+      },
+      "Aniversariantes.Model/1.0.0": {
+        "runtime": {
+          "Aniversariantes.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Aniversariantes.Cadastros/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aniversariantes.Dados/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aniversariantes.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
