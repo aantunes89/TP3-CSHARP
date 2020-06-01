@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\Pessoas.cs\\Aniversariantes.Model.csproj": {}
+    "E:\\Projetos\\Estudo\\github\\TP3-CSHARP\\Pessoas.cs\\Aniversariantes.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\Pessoas.cs\\Aniversariantes.Model.csproj": {
+    "E:\\Projetos\\Estudo\\github\\TP3-CSHARP\\Pessoas.cs\\Aniversariantes.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\Pessoas.cs\\Aniversariantes.Model.csproj",
+        "projectUniqueName": "E:\\Projetos\\Estudo\\github\\TP3-CSHARP\\Pessoas.cs\\Aniversariantes.Model.csproj",
         "projectName": "Aniversariantes.Model",
-        "projectPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\Pessoas.cs\\Aniversariantes.Model.csproj",
-        "packagesPath": "C:\\Users\\andre.da.c.antunes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\Pessoas.cs\\obj\\",
+        "projectPath": "E:\\Projetos\\Estudo\\github\\TP3-CSHARP\\Pessoas.cs\\Aniversariantes.Model.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "E:\\Projetos\\Estudo\\github\\TP3-CSHARP\\Pessoas.cs\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\andre.da.c.antunes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

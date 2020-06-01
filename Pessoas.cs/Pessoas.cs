@@ -29,15 +29,13 @@ namespace Aniversariantes.Model
 
             int diferenca = (int)aniversarioEsteAno.Subtract(hoje).TotalDays;
 
-            if(diferenca >= 0)
-            {
-                return diferenca;
-            }
-            else
-            {
-                var aniversarioProximoAno = new DateTime((anoCorrente + 1), mes, dia);
-                return (int)aniversarioProximoAno.Subtract(hoje).TotalDays;
-            }
+            return diferenca >= 0 ? diferenca : GetDaysNextBirthdat(dia, mes, anoCorrente, hoje);
+        }
+
+        private int GetDaysNextBirthdat(int dia, int mes, int anoCorrente, DateTime hoje)
+        {
+            var aniversarioProximoAno = new DateTime((anoCorrente + 1), mes, dia);
+            return (int)aniversarioProximoAno.Subtract(hoje).TotalDays;
         }
     }
 }

@@ -27,20 +27,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\andre.da.c.antunes\\.nuget\\packages\\": {}
+    "C:\\Users\\lucas\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\RepositorioDeAniversariantes.cs\\Aniversariantes.Dados.csproj",
+      "projectUniqueName": "E:\\Projetos\\Estudo\\github\\TP3-CSHARP\\RepositorioDeAniversariantes.cs\\Aniversariantes.Dados.csproj",
       "projectName": "Aniversariantes.Dados",
-      "projectPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\RepositorioDeAniversariantes.cs\\Aniversariantes.Dados.csproj",
-      "packagesPath": "C:\\Users\\andre.da.c.antunes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\RepositorioDeAniversariantes.cs\\obj\\",
+      "projectPath": "E:\\Projetos\\Estudo\\github\\TP3-CSHARP\\RepositorioDeAniversariantes.cs\\Aniversariantes.Dados.csproj",
+      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+      "outputPath": "E:\\Projetos\\Estudo\\github\\TP3-CSHARP\\RepositorioDeAniversariantes.cs\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\andre.da.c.antunes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -52,8 +59,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\Pessoas.cs\\Aniversariantes.Model.csproj": {
-              "projectPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\Pessoas.cs\\Aniversariantes.Model.csproj"
+            "E:\\Projetos\\Estudo\\github\\TP3-CSHARP\\Pessoas.cs\\Aniversariantes.Model.csproj": {
+              "projectPath": "E:\\Projetos\\Estudo\\github\\TP3-CSHARP\\Pessoas.cs\\Aniversariantes.Model.csproj"
             }
           }
         }

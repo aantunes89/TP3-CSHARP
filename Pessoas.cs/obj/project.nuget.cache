@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GzefIkllhr+uqYVdTYy6gOqlez0MJLWrzOR7o1d9iaenPcX/IwBvUox7KaVKHwQqFCcN3Ux5iTz4jeUZSd1bOQ==",
+  "dgSpecHash": "p7DDJjEf+BI3elc0WybH09kTUD2/SAMD0gxCjh6j/fXzrZIxU2BtD+ZupO8salbf92JQ5cUbHRfx+jWDevUc5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\Pessoas.cs\\Aniversariantes.Model.csproj",
+  "projectFilePath": "E:\\Projetos\\Estudo\\github\\TP3-CSHARP\\Pessoas.cs\\Aniversariantes.Model.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\andre.da.c.antunes\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Users\\lucas\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
 }

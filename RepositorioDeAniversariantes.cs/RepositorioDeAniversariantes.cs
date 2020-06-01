@@ -23,18 +23,7 @@ namespace Aniversariantes.Dados
 
         private bool PessoaExistente(Pessoa pessoa)
         {
-            var nome = pessoa.Nome;
-            var sobrenome = pessoa.Sobrenome;
-            var pessoaEncontrada = BuscarPorNomeCompleto(nome, sobrenome);
-
-            if (pessoaEncontrada != null)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return BuscarPorNomeCompleto(pessoa.Nome, pessoa.Sobrenome) != null ? true : false;
         }
 
         protected abstract void CriarNovo(Pessoa pessoa);
