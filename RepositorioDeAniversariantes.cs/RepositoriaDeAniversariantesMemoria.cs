@@ -32,7 +32,7 @@ namespace Aniversariantes.Dados
 
         public override Pessoa BuscarPorNomeCompleto(string nome, string sobrenome)
         {
-            return pessoasCadastradas.Find(pessoa => (
+            return pessoasCadastradas.SingleOrDefault(pessoa => (
                     (pessoa.Nome.Contains(nome, StringComparison.InvariantCultureIgnoreCase)
                     &&
                     (pessoa.Sobrenome.Contains(sobrenome, StringComparison.InvariantCultureIgnoreCase)
