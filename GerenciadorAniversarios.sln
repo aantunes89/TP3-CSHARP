@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aniversariantes.Cadastros", "GerenciadorAniversarios\Aniversariantes.Cadastros.csproj", "{ADF26308-69AD-4B1D-B226-926229108F43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aniversariantes.Cadastros", "GerenciadorAniversarios\Aniversariantes.Cadastros.csproj", "{ADF26308-69AD-4B1D-B226-926229108F43}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apresentacao", "Apresentacao", "{9488DE15-944D-4A89-9262-5F9094C50C8E}"
 EndProject
@@ -11,9 +11,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dados", "Dados", "{818FB1E4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocio", "Negocio", "{3505EBE9-647C-40AF-BF2C-19556E454D16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aniversariantes.Model", "Pessoas.cs\Aniversariantes.Model.csproj", "{4389AFE9-8FD7-4968-AEAC-AEFB9E5D17A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aniversariantes.Model", "Pessoas.cs\Aniversariantes.Model.csproj", "{4389AFE9-8FD7-4968-AEAC-AEFB9E5D17A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aniversariantes.Dados", "RepositorioDeAniversariantes.cs\Aniversariantes.Dados.csproj", "{15262043-8440-4618-80D7-2976884FBBF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aniversariantes.Dados", "RepositorioDeAniversariantes.cs\Aniversariantes.Dados.csproj", "{15262043-8440-4618-80D7-2976884FBBF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C1F0BAB4-3D48-40CF-92AC-C28CADF003F5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

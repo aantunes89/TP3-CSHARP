@@ -9,7 +9,7 @@ namespace Aniversariantes.Model
     {
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
-        public DateTime DataAniversario { get; private set; }
+        public DateTime DataAniversario { get; set; }
         public int DiasQueFaltam { get; set; }
 
         public Pessoa(string nome, string sobrenome, int dia, int mes, int ano)

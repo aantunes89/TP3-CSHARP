@@ -10,3 +10,15 @@ C:\Users\andre.da.c.antunes\Desktop\Infnet\AndreTP3\GerenciadorAniversarios\Repo
 C:\Users\andre.da.c.antunes\Desktop\Infnet\AndreTP3\GerenciadorAniversarios\RepositorioDeAniversariantes.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Dados.csproj.CopyComplete
 C:\Users\andre.da.c.antunes\Desktop\Infnet\AndreTP3\GerenciadorAniversarios\RepositorioDeAniversariantes.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Dados.dll
 C:\Users\andre.da.c.antunes\Desktop\Infnet\AndreTP3\GerenciadorAniversarios\RepositorioDeAniversariantes.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Dados.pdb
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\RepositorioDeAniversariantes.cs\bin\Debug\netcoreapp3.1\Aniversariantes.Dados.deps.json
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\RepositorioDeAniversariantes.cs\bin\Debug\netcoreapp3.1\Aniversariantes.Dados.dll
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\RepositorioDeAniversariantes.cs\bin\Debug\netcoreapp3.1\Aniversariantes.Dados.pdb
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\RepositorioDeAniversariantes.cs\bin\Debug\netcoreapp3.1\Aniversariantes.Model.dll
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\RepositorioDeAniversariantes.cs\bin\Debug\netcoreapp3.1\Aniversariantes.Model.pdb
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\RepositorioDeAniversariantes.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Dados.csprojAssemblyReference.cache
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\RepositorioDeAniversariantes.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Dados.AssemblyInfoInputs.cache
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\RepositorioDeAniversariantes.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Dados.AssemblyInfo.cs
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\RepositorioDeAniversariantes.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Dados.csproj.CoreCompileInputs.cache
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\RepositorioDeAniversariantes.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Dados.csproj.CopyComplete
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\RepositorioDeAniversariantes.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Dados.dll
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\RepositorioDeAniversariantes.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Dados.pdb

@@ -7,3 +7,12 @@ C:\Users\andre.da.c.antunes\Desktop\Infnet\AndreTP3\GerenciadorAniversarios\Pess
 C:\Users\andre.da.c.antunes\Desktop\Infnet\AndreTP3\GerenciadorAniversarios\Pessoas.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Model.dll
 C:\Users\andre.da.c.antunes\Desktop\Infnet\AndreTP3\GerenciadorAniversarios\Pessoas.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Model.pdb
 C:\Users\andre.da.c.antunes\Desktop\Infnet\AndreTP3\GerenciadorAniversarios\Pessoas.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Model.csprojAssemblyReference.cache
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\Pessoas.cs\bin\Debug\netcoreapp3.1\Aniversariantes.Model.deps.json
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\Pessoas.cs\bin\Debug\netcoreapp3.1\Aniversariantes.Model.dll
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\Pessoas.cs\bin\Debug\netcoreapp3.1\Aniversariantes.Model.pdb
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\Pessoas.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Model.csprojAssemblyReference.cache
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\Pessoas.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Model.AssemblyInfoInputs.cache
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\Pessoas.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Model.AssemblyInfo.cs
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\Pessoas.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Model.csproj.CoreCompileInputs.cache
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\Pessoas.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Model.dll
+C:\Users\andre.da.c.antunes\Desktop\Infnet\AT-C#\TP3-CSHARP\Pessoas.cs\obj\Debug\netcoreapp3.1\Aniversariantes.Model.pdb

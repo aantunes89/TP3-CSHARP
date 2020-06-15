@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Pessoas.cs\Aniversariantes.Model.csproj" />
     <ProjectReference Include="..\RepositorioDeAniversariantes.cs\Aniversariantes.Dados.csproj" />
   </ItemGroup>

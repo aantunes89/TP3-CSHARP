@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\Pessoas.cs\\Aniversariantes.Model.csproj",
+      "projectUniqueName": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AT-C#\\TP3-CSHARP\\Pessoas.cs\\Aniversariantes.Model.csproj",
       "projectName": "Aniversariantes.Model",
-      "projectPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\Pessoas.cs\\Aniversariantes.Model.csproj",
+      "projectPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AT-C#\\TP3-CSHARP\\Pessoas.cs\\Aniversariantes.Model.csproj",
       "packagesPath": "C:\\Users\\andre.da.c.antunes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\Pessoas.cs\\obj\\",
+      "outputPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AT-C#\\TP3-CSHARP\\Pessoas.cs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre.da.c.antunes\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\GerenciadorAniversarios\\Aniversariantes.Cadastros.csproj",
+      "projectUniqueName": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AT-C#\\TP3-CSHARP\\GerenciadorAniversarios\\Aniversariantes.Cadastros.csproj",
       "projectName": "Aniversariantes.Cadastros",
-      "projectPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\GerenciadorAniversarios\\Aniversariantes.Cadastros.csproj",
+      "projectPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AT-C#\\TP3-CSHARP\\GerenciadorAniversarios\\Aniversariantes.Cadastros.csproj",
       "packagesPath": "C:\\Users\\andre.da.c.antunes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\GerenciadorAniversarios\\obj\\",
+      "outputPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AT-C#\\TP3-CSHARP\\GerenciadorAniversarios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre.da.c.antunes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,11 +71,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\Pessoas.cs\\Aniversariantes.Model.csproj": {
-              "projectPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\Pessoas.cs\\Aniversariantes.Model.csproj"
+            "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AT-C#\\TP3-CSHARP\\Pessoas.cs\\Aniversariantes.Model.csproj": {
+              "projectPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AT-C#\\TP3-CSHARP\\Pessoas.cs\\Aniversariantes.Model.csproj"
             },
-            "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\RepositorioDeAniversariantes.cs\\Aniversariantes.Dados.csproj": {
-              "projectPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AndreTP3\\GerenciadorAniversarios\\RepositorioDeAniversariantes.cs\\Aniversariantes.Dados.csproj"
+            "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AT-C#\\TP3-CSHARP\\RepositorioDeAniversariantes.cs\\Aniversariantes.Dados.csproj": {
+              "projectPath": "C:\\Users\\andre.da.c.antunes\\Desktop\\Infnet\\AT-C#\\TP3-CSHARP\\RepositorioDeAniversariantes.cs\\Aniversariantes.Dados.csproj"
             }
           }
         }

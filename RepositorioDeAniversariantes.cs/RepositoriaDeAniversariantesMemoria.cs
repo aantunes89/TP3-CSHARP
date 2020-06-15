@@ -15,7 +15,7 @@ namespace Aniversariantes.Dados
             pessoasCadastradas.Add(pessoa);
         }
 
-        protected override void Editar(Pessoa pessoa)
+         protected override void Editar(Pessoa pessoa)
         {
             pessoasCadastradas.Remove(pessoa);
             pessoasCadastradas.Add(pessoa);

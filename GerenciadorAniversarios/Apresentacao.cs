@@ -13,10 +13,12 @@ namespace Aniversarios.Cadastro
         {
             Console.WriteLine(texto);
         }
+
         private static void LimparTela() //Limpar o console
         {
             Console.Clear();
         }
+
         public static void MenuPrincipal()
         {
             Escreva("Menu do sistema:");
@@ -112,17 +114,33 @@ namespace Aniversarios.Cadastro
                 Escreva("---------------------------------------------------------------");
 
                 Escreva("Selecione um aniversariante:");
-                int operacao = int.Parse(Console.ReadLine());
+                int operacao;
+                var num = int.TryParse(Console.ReadLine(), out operacao);
+                
+                if (num)
+                {
+                    var selecionado = pessoasEncontradas.ToList()[operacao];
+                    LimparTela();
+                    Escreva("---------------------------------------------------------------");
+                    Escreva($"Nome Completo: {selecionado.Nome.ToUpper()} {selecionado.Sobrenome.ToUpper()}");
+                    Escreva($"Data do Aniversário: {selecionado.DataAniversario.ToString("dd/MM/yyyy")}");
+                    Escreva($"Faltam: {selecionado.DiasQueFaltam} dias");
+                    Escreva("---------------------------------------------------------------");
 
-                var selecionado = pessoasEncontradas.ToList()[operacao];
-                LimparTela();
-                Escreva("---------------------------------------------------------------");
-                Escreva($"Nome Completo: {selecionado.Nome.ToUpper()} {selecionado.Sobrenome.ToUpper()}");
-                Escreva($"Data do Aniversário: {selecionado.DataAniversario.ToString("dd/MM/yyyy")}");
-                Escreva($"Faltam: {selecionado.DiasQueFaltam} dias");
-                Escreva("---------------------------------------------------------------");
-                Escreva("Para realizar outra operação pressione qualquer tecla.");
-                Console.ReadLine();
+                    Escreva("Para editar as informacoes deste usuario digite 1");
+                    Escreva("Para realizar outra operação pressione qualquer outra tecla.");
+                    var opcao = Console.ReadLine();
+
+                    if(int.Parse(opcao) == 1)
+                    {
+                        EditarPessoa(selecionado);
+                    }
+                    Console.ReadLine();
+                } else
+                {
+                    Escreva("Opção Inválida");
+                    ConsultarPeloNome();
+                }
             }
             else
             {
@@ -152,7 +170,14 @@ namespace Aniversarios.Cadastro
                 Escreva($"Data do Aniversário: {pessoaEncontrada.DataAniversario.ToString("dd/MM/yyyy")}");
                 Escreva($"Faltam: {pessoaEncontrada.DiasQueFaltam} dias");
                 Escreva("---------------------------------------------------------------");
-                Escreva("Para realizar outra operação pressione qualquer tecla.");
+                Escreva("Para editar as informacoes deste usuario digite 1");
+                Escreva("Para realizar outra operação pressione qualquer outra tecla.");
+                var opcao = Console.ReadLine();
+
+                if (int.Parse(opcao) == 1)
+                {
+                    EditarPessoa(pessoaEncontrada);
+                }
                 Console.ReadLine();
             }
             else
@@ -163,13 +188,6 @@ namespace Aniversarios.Cadastro
             OperacaoTerminada();
         }
 
-        public static RepositorioDeAniversariantes BancoDeDados
-        {
-            get
-            {
-                return new RepositoriaDeAniversariantesMemoria();
-            }
-        }
         private static void OperacaoTerminada()
         {
             Escreva(" 1 - Voltar ao menu principal");
@@ -197,6 +215,89 @@ namespace Aniversarios.Cadastro
                     Escreva("Operacao Encerrada!!");
                     break;
             };
+        }
+
+        private static void EditarPessoa(Pessoa pessoa)
+        {
+            var pessoaOriginal = pessoa;
+            Escreva($"Para mudar nome de {pessoa.Nome} digite 1");
+            Escreva($"Para mudar nome de {pessoa.Sobrenome} digite 2");
+            Escreva($"Para mudar nome de {pessoa.DataAniversario} digite 3");
+            Escreva($"Para mudar todas as informacoes de {pessoa.Nome} ${pessoa.Sobrenome}");
+            char operacao = Console.ReadLine().ToCharArray()[0];
+            switch (operacao)
+            {
+                case '1': 
+                    Escreva("Digite o novo nome:");
+                    string nome = Console.ReadLine();
+                    pessoa.Nome = nome;
+                    BancoDeDados.Salvar(pessoa);
+                    break;
+                case '2':
+                    string sobrenome = Console.ReadLine();
+                    pessoa.Sobrenome = sobrenome;
+                    BancoDeDados.Salvar(pessoa);
+                    break;
+                case '3':
+                    Console.WriteLine("Digite o dia - Padrao dd (2 digitos)");
+                    int dia = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Digite o mes - Padrao mm (2 digitos)");
+                    int mes = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Digite o ano - Padrao yyyy (4 digitos)");
+                    int ano = int.Parse(Console.ReadLine());
+                    pessoa.DataAniversario = new DateTime(ano, mes, dia);
+                    BancoDeDados.Salvar(pessoa);
+                    break;
+                case '4':
+                    Escreva("Digite o novo nome:");
+                    string todaInfoNome = Console.ReadLine();
+                    pessoa.Nome = todaInfoNome != null ? todaInfoNome : pessoa.Nome;
+
+                    Escreva("Digite o novo sobrenome:");
+                    string todaInfoSobreNome = Console.ReadLine();
+                    pessoa.Sobrenome = todaInfoSobreNome != null ? todaInfoSobreNome : pessoa.Sobrenome; ;
+
+                    Console.WriteLine("Digite o dia - Padrao dd (2 digitos)");
+                    var todaInfoDia = Console.ReadLine();
+                    
+                    Console.WriteLine("Digite o mes - Padrao mm (2 digitos)");
+                    var todaInfoMes = Console.ReadLine();
+                    
+                    Console.WriteLine("Digite o ano - Padrao yyyy (4 digitos)");
+                    var todaInfoAno = Console.ReadLine();
+                    
+                    if( 
+                           !String.IsNullOrWhiteSpace(todaInfoDia)
+                        && !String.IsNullOrWhiteSpace(todaInfoMes) 
+                        && !String.IsNullOrWhiteSpace(todaInfoAno)
+                    )
+                    {
+                        int novoDia, novoMes, novoAno;
+                        int.TryParse(todaInfoDia, out novoDia);
+                        int.TryParse(todaInfoDia, out novoMes);
+                        int.TryParse(todaInfoDia, out novoAno);
+                        if (novoDia is int && novoMes is int && novoAno is int )
+                        {
+                            var novaData = new DateTime(novoDia, novoMes, novoAno);
+                            pessoa.DataAniversario = novaData != null ? novaData : pessoa.DataAniversario;
+                        }
+                        
+                    }
+
+
+                    BancoDeDados.Salvar(pessoa);
+                    break;
+                default: Escreva("Opção inexistente"); break;
+            }
+            MenuPrincipal();
+        }
+
+        public static RepositorioDeAniversariantes BancoDeDados
+        {
+            get
+            {
+                return new RepositoriaDeAniversariantesMemoria();
+            }
         }
     }
 }
